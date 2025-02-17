@@ -13,7 +13,7 @@ const photos = ref([]);
 const selectedImage = ref(null);
 const loading = ref(false);
 const unsplash = createApi({
-  accessKey: "KPOPkZtWO2SRL75p01wQXKDoNSOQqmqk9sPZCheoeiE",
+  accessKey: import.meta.env.VITE_UNSPLASH_ACCESS_KEY,
 });
 
 watch(
