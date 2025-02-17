@@ -1,7 +1,7 @@
 <script setup>
 import { ref, onMounted, watch, defineEmits, defineProps } from "vue";
 import { createApi } from "unsplash-js";
-import "../styles/landing.css";
+import "../styles/landing.scss";
 
 const props = defineProps({
   searchQuery: String,

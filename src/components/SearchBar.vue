@@ -1,6 +1,6 @@
 <script setup>
 import { ref, defineEmits, defineProps } from "vue";
-import "../styles/search-bar.css";
+import "../styles/search-bar.scss";
 const props = defineProps({
   loading: Boolean,
 });
